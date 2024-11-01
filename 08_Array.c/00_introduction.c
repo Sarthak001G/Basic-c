@@ -1,4 +1,5 @@
-/* In C, an array is a collection of elements of the same data type stored in contiguous memory locations. Arrays can be of any type, including int, float, char, 
+/* In C, an array is a collection of elements of the same data type stored in contiguous memory locations. Arrays can be of any type, 
+including int, float, char, 
 and even user-defined types like structures.
 
 Here’s a basic example of how to declare, initialize, and use an array in C:
@@ -67,7 +68,8 @@ The memory locations for `arr` are contiguous because each element follows direc
 is given by `base_address + i * sizeof(type)`.
 2. **Cache friendliness**: Modern CPUs use caches to speed up memory access, and contiguous memory helps in better cache utilization.
 
-In contrast, non-contiguous memory structures (like linked lists) require more overhead in terms of both access and storage management because the
+In contrast, non-contiguous memory structures (like linked lists) require more overhead in terms of both access and storage management because
+ the
  elements are scattered in different locations in memory, requiring pointers to link them. 
 
 Would you like to know more about how memory works in C, like dynamic memory allocation?*/

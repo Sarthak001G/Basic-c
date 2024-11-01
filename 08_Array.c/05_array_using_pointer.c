@@ -7,8 +7,10 @@ int main(){
     //c helps there develpoer
     for (int i = 0; i < 4; i++)
     {
-        printf("The marks at index\n %d is\n %d\n",i+1,marks[i]);
-        printf("The marks at index\n %d is\n %d\n",i+1,*ptr);
+        printf("The marks at index=\n %d is\n %d\n",i+1,marks[i]);
+        printf("2nd way=\n %d is\n %d\n",i+1,*ptr);
+        printf("Address=\n %d is\n %d\n",i+1,ptr);
+        
         ptr++;
     }
     

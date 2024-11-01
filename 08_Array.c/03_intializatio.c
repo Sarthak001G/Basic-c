@@ -42,7 +42,8 @@ int arr[] = {1, 2, 3, 4, 5}; // Size will be 5 automatically
 
 ### 5. **Dynamic Initialization**
 
-You can dynamically allocate memory for an array using pointers and `malloc` or `calloc` functions from `stdlib.h`. This is useful when you don’t know the array size at compile time.
+You can dynamically allocate memory for an array using pointers and `malloc` or `calloc` functions from `stdlib.h`.
+ This is useful when you don’t know the array size at compile time.
 
 #### Example with `malloc`:
 ```c*/
