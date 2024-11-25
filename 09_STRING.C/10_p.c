@@ -3,7 +3,7 @@
 //dencrypitng
 
 int main(){
-    char str[]="Nfsb!obbn!Bnju!ibj";
+    char str[]="Nfsb!obbn!Bnju!ibj!zft!tjs";
     int count=0;
     for (int i = 0; i < strlen(str); i++)
     {

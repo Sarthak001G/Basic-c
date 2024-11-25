@@ -5,9 +5,9 @@ int main(){
     int* ptr =&a;
     int** ptr1 =&ptr;
 
-    printf("the address is \n=%u",&a);
-    printf("\nthe value of ptr\n=%d",*ptr);
-    printf("\nthe value of ptr1 is\n=%d",**ptr1);
+    printf("the address is \n:%u",&a);
+    printf("\nthe value of ptr\n:%d",*ptr);
+    printf("\nthe value of ptr1 is\n:%d",**ptr1);
 
 
     return 0;

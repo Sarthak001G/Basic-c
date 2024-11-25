@@ -11,7 +11,7 @@ void swap(int* a, int* b){
 int main(){
     int a=4,b=6;
     swap(&a,&b);
-    printf("value \n%d\n ,%d",a,b);
+    printf("value \n%d,%d",a,b);
 
     return 0;
 }
