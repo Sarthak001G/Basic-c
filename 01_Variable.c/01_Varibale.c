@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    printf("HEllo world");
+    printf("Hello World");
     return 0;
 }/*In C, data types are broadly categorized into four types:
 

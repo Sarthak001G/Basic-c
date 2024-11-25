@@ -8,7 +8,7 @@ int main(){
     printf("%d\n",*j);
     printf("%d\n",*(&i));
     printf("%d\n",i);
-    printf("%p\n",(&j));//adress of address
+    printf("%d\n",(&j));//adress of address
     
 
 

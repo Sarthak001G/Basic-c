@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 int main() {
-    int n = 10, prime = 1; 
+    int n=10 , prime = 1; 
+   // scanf("%d",&n);
 
     
     if (n <= 1) {
