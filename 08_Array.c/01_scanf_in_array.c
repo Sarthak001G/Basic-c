@@ -11,7 +11,7 @@ int main(){
     }
     for (int i = 0; i < 5; i++)
     {
-        printf("marks of i %d: \n %d\n",i+1, marks[i]);
+        printf("marks of i %d=  %d\n",i+1, marks[i]);
     }
     
 
