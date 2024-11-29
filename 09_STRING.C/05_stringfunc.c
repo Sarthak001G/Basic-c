@@ -5,7 +5,7 @@ int main(){
     char st[]="Harry";
     char str1[30];
 
-    printf("%d",strlen(st));
+    printf("%d\n",strlen(st));
     strcpy(str1,st);
     printf("%s\n",str1);
     strcat(str1,st);
