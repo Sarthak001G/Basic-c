@@ -1,7 +1,9 @@
 #include<stdio.h> 
 
 int main(){
-    int a=2000;
-    printf("%d", a%97);
+   // float a=2001;
+   int a=2000;
+   printf("%d",a%97);
+    //printf("%f", a%97);
     return 0;
 }
