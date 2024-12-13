@@ -1,10 +1,7 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
 
-
-void main(){
-
-    int y=10;
-    
-    printf("%d",y<<2);
+int main() {
+    char name[] = "Vinay Agarwal";  // Declare a string
+    printf("%s", name);  // Print the string
+    return 0;
 }
